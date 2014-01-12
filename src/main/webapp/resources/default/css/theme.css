@@ -1,0 +1,11 @@
+html {
+}
+
+body {
+    background-color: olive;
+    font-size: 0.8em;
+    max-width: 1099px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px ;
+}
