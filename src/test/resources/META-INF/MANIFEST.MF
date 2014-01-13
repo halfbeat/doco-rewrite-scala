@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Class-Path: eclipselink-2.4.0.jar javax.persistence-2.0.4.v20111216100
+ 9.jar commonj.sdo-2.1.1.v201112051852.jar jasperreports-3.7.0.jar com
+ mons-beanutils-1.8.0.jar commons-logging-1.1.1.jar commons-collection
+ s-3.2.jar commons-digester-1.7.jar xml-apis-1.3.02.jar itext-2.1.0.ja
+ r bcmail-jdk14-136.jar bcprov-jdk14-136.jar jcommon-1.0.15.jar jfreec
+ hart-1.0.12.jar jdtcore-3.1.0.jar security-impl-0.1.5-SNAPSHOT.jar jc
+ ylfw-1.4.jar rrd4j-2.2-SNAPSHOT.jar security-api-0.1.5-SNAPSHOT.jar t
+ oolkit-0.2.1-SNAPSHOT.jar commons-configuration-1.6.jar commons-lang-
+ 2.4.jar commons-beanutils-core-1.8.0.jar log4j-1.2.9.jar jaxb-impl-2.
+ 1.13.jar jaxb-api-2.1.jar stax-api-1.0-2.jar activation-1.1.jar SistS
+ eguC-2.6.jar commons-io-1.4.jar commons-fileupload-1.2.1.jar doco-log
+ ic-1.0-SNAPSHOT.jar logic-1.1-SNAPSHOT.jar mailer-0.1.1.jar jpoller-1
+ .5.2.jar mail-1.4.1.jar doco-rmi-shared-0.0.1-SNAPSHOT.jar doco-db-mo
+ del-srv-1.0-SNAPSHOT.jar joda-time-2.1.jar itextpdf-5.1.3.jar xmlwork
+ er-1.1.1.jar lambdaj-2.3.3.jar hamcrest-all-1.1.jar objenesis-1.2.jar
+  cglib-nodep-2.2.jar guava-13.0.1.jar httpclient-4.2.1.jar httpcore-4
+ .2.1.jar commons-codec-1.6.jar opencsv-2.0.jar axis2-kernel-1.5.6.jar
+  axiom-api-1.2.12.jar geronimo-activation_1.1_spec-1.0.2.jar geronimo
+ -javamail_1.4_spec-1.6.jar jaxen-1.1.1.jar geronimo-stax-api_1.0_spec
+ -1.0.1.jar axiom-impl-1.2.12.jar wstx-asl-3.2.9.jar axiom-dom-1.2.12.
+ jar geronimo-ws-metadata_2.0_spec-1.1.2.jar geronimo-jta_1.1_spec-1.1
+ .jar commons-httpclient-3.1.jar wsdl4j-1.6.2.jar XmlSchema-1.4.3.jar 
+ neethi-2.0.5.jar woden-api-1.0M8.jar ant-1.7.0.jar ant-launcher-1.7.0
+ .jar woden-impl-dom-1.0M8.jar xercesImpl-2.8.1.jar axis2-adb-1.5.6.ja
+ r axis2-transport-http-1.5.6.jar axis2-transport-local-1.5.6.jar velo
+ city-1.7.jar akka-actor_2.10-2.1.1.jar scala-library-2.10.0.jar confi
+ g-1.0.0.jar thumbnailator-0.4.5.jar pdf-renderer-1.0.5.jar primefaces
+ -3.4.jar casablanca-1.0.4.jar midnight-1.0.4.jar dark-hive-1.0.4.jar 
+ ui-darkness-1.0.4.jar home-1.0.4.jar omnifaces-1.1.jar cas-client-cor
+ e-3.1.5-jfrog-1.jar opensaml-1.1b.jar xmlsec-1.4.3.jar security-cas-i
+ ntegration-0.0.1-SNAPSHOT.jar weld-servlet-2.0.0.Final.jar jsp-api-2.
+ 1.jar el-ri-1.0.jar jstl-1.2.jar rewrite-servlet-2.0.4.Final.jar rewr
+ ite-integration-cdi-2.0.4.Final.jar jsf-api-2.2.0.jar jsf-impl-2.2.0.
+ jar jersey-server-1.4.jar jersey-core-1.4.jar asm-3.1.jar stax-api-1.
+ 0.1.jar jaxb-impl-2.1.12.jar jersey-json-1.4.jar jettison-1.1.jar jac
+ kson-core-asl-1.5.5.jar jackson-mapper-asl-1.5.5.jar jackson-jaxrs-1.
+ 5.5.jar jackson-xc-1.5.5.jar jersey-media-json-jackson-2.2.jar jersey
+ -common-2.2.jar jersey-server-2.2.jar javax.ws.rs-api-2.0.jar jackson
+ -core-asl-1.9.11.jar jackson-mapper-asl-1.9.11.jar jackson-jaxrs-1.9.
+ 11.jar jackson-xc-1.9.11.jar jersey-container-servlet-core-2.2.jar ja
+ vax.inject-2.2.0-b14.jar javax.inject-1.jar hk2-api-2.1.96.jar osgi-r
+ esource-locator-1.0.1.jar hk2-utils-2.1.96.jar hk2-locator-2.1.96.jar
+  asm-all-repackaged-2.1.96.jar cglib-2.1.96.jar hk2-locator-2.2.0-b14
+ .jar asm-all-repackaged-2.2.0-b14.jar hk2-api-2.2.0-b14.jar hk2-utils
+ -2.2.0-b14.jar cglib-2.2.0-b14.jar jersey-client-2.2.jar validation-a
+ pi-1.0.0.GA.jar jersey-media-moxy-2.2.jar org.eclipse.persistence.mox
+ y-2.5.0.jar org.eclipse.persistence.core-2.5.0.jar org.eclipse.persis
+ tence.asm-2.5.0.jar org.eclipse.persistence.antlr-2.5.0.jar jaxb-api-
+ 2.2.6.jar toolkit-0.1.5-SNAPSHOT.jar jaxb-impl-2.2.3-1.jar jersey-ser
+ ver-1.9.jar jersey-core-1.9.jar jersey-json-1.9.jar jackson-core-asl-
+ 1.8.3.jar jackson-mapper-asl-1.8.3.jar jackson-jaxrs-1.8.3.jar jackso
+ n-xc-1.8.3.jar log4j-1.2.16.jar primefaces-3.5.jar jooq-3.1.0.jar joo
+ q-meta-3.1.0.jar jooq-codegen-3.1.0.jar pom.xml commons-beanutils-cor
+ e-1.8.3.jar bval-core-0.5.jar commons-lang3-3.1.jar bval-jsr303-0.5.j
+ ar commons-collections-3.2.1.jar commons-digester-1.8.jar commons-bea
+ nutils-1.7.0.jar commons-fileupload-1.2.jar log4j-1.2.17.jar weld-ser
+ vlet-2.1.0.Final.jar
+

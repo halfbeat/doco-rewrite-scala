@@ -15,7 +15,7 @@ public class RestSecurityFilter implements Filter {
     protected FilterConfig filterConfig = null;
 
     @Inject
-    private LoginService securityService;
+    private SecurityService securityService;
 
     private static String[] decode(final String encodedString) {
         final byte[] decodedBytes = Base64.decode(encodedString.getBytes());

@@ -11,19 +11,8 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.7</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.10.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-swing</artifactId>
             <version>2.10.1</version>
         </dependency>
         <dependency>
@@ -115,7 +104,22 @@
             <artifactId>derby</artifactId>
             <version>10.9.1.0</version>
         </dependency>
+
+        <!-- Pruebas unitarias (Junit, Weld) -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <type>jar</type>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.weld.se</groupId>
+            <artifactId>weld-se</artifactId>
+            <version>2.1.0.Final</version>
+        </dependency>
     </dependencies>
+
     <build>
         <pluginManagement>
             <plugins>

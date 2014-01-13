@@ -2,14 +2,12 @@ package doco.security;
 
 import doco.usuarios.Usuario;
 
-import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.ws.rs.*;
 
 @Path("security")
-@RequestScoped
-public class LoginService {
+public class SecurityService {
     @Inject
     private EntityManager em;
 
@@ -23,7 +21,7 @@ public class LoginService {
                     setParameter("user", creds.getUser()).setParameter("pass", creds.getPassword()).getSingleResult();
             return new LoginResult(0, "Usuario autenticado correctamente", "AABBCCDDEEFF");
         } catch (Exception e) {
-            return new LoginResult(-1, "Usuario/password no v�lidos");
+            return new LoginResult(-1, "Usuario/password no válidos");
         } finally {
         }
     }
