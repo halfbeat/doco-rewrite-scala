@@ -1,4 +1,4 @@
-package doco.rewrite
+package doco.cdi
 
 import javax.enterprise.inject.{Default, Produces}
 import java.security.Principal

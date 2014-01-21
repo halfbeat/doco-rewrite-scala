@@ -1,4 +1,4 @@
-package doco
+package doco.tests
 
 import javax.ws.rs.{Produces, GET, Path}
 import scala.reflect._

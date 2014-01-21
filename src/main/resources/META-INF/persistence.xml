@@ -4,10 +4,9 @@
              version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
     <persistence-unit name="doco" transaction-type="RESOURCE_LOCAL">
         <class>doco.usuarios.Usuario</class>
-        <class>doco.notificaciones.NotificacionUsuario</class>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:derby:simpleDb;create=true"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:derby:testDB;create=true"/>
             <property name="javax.persistence.jdbc.user" value="test"/>
             <property name="javax.persistence.jdbc.password" value="test"/>
 
@@ -32,8 +31,7 @@
             #
             -->
             <property name="eclipselink.logging.level" value="FINE"/>
-            <property name="eclipselink.logging.logger"
-                      value="org.eclipse.persistence.logging.CommonsLoggingSessionLog"/>
+
             <property name="eclipselink.logging.level.sql" value="FINE"/>
             <property name="eclipselink.logging.parameters" value="true"/>
         </properties>
